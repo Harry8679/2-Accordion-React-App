@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaBook } from "react-icons/fa";
 import Question from './Question';
+import { questions } from './data';
 
 const Faq = () => {
   return (
@@ -14,8 +15,10 @@ const Faq = () => {
                     Il s'agit en fait d'un support d'information qui regroupe, sur une même page Web, les questions les plus souvent posées par des internautes.
                 </p>
             </div>
-            <div className="questions">
-                <Question />
+            <div className="questions --center-all">
+                {questions.map(question => (
+                    <Question key={question.id} title={question.title} answer={question.answer} />
+                ))}
             </div>
         </div>
     </section>
