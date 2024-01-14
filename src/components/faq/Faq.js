@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBook } from "react-icons/fa";
+import Question from './Question';
 
 const Faq = () => {
   return (
@@ -12,6 +13,9 @@ const Faq = () => {
                     Fréquemment traduit en français par Foire Aux Questions, l'acronyme FAQ fait référence à l'expression anglaise Frequently Asked Questions. 
                     Il s'agit en fait d'un support d'information qui regroupe, sur une même page Web, les questions les plus souvent posées par des internautes.
                 </p>
+            </div>
+            <div className="questions">
+                <Question />
             </div>
         </div>
     </section>

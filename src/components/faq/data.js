@@ -18,5 +18,10 @@ export const questions = [
         id: 4,
         title: 'What is the JavaScript technology for programming on the Back side ?',
         answer: 'The JavaScript technology on the Back side is NodeJS which is an runtime environment.'
+    },
+    {
+        id: 5,
+        title: 'Can I learn React JS ?',
+        answer: 'React is easy to learn, you just need to have a solid foundation in javascript.'
     }
 ];
