@@ -1,9 +1,10 @@
 import "./App.scss";
+import Faq from "./components/faq/Faq";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!!</h1>
+      <Faq />
     </div>
   );
 }
